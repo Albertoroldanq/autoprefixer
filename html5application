@@ -1,0 +1,14 @@
+<head>
+    <script src="https://rawgithub.com/ai/autoprefixer-rails/master/vendor/autoprefixer.js"></script>
+<style type="unprocessed" id="AutoprefixerIn">%css%</style>
+<style id="AutoprefixerOut"></style>
+<script>
+    AutoprefixerSettings = ""; // Specify here the browsers you
+                               // want to target or leave empty
+    document.getElementById("AutoprefixerOut").innerHTML =
+              autoprefixer(AutoprefixerSettings || null)
+              .process(document.getElementById("AutoprefixerIn")
+                       .innerHTML)
+              .css;
+</script>
+</head>
